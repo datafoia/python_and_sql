@@ -29,4 +29,4 @@ bonus_float = float(bonus) / 100
 bonus_calculado = round(salario_float * bonus_float,2)
 salario_final = salario_float + bonus_calculado
 
-print("Olá " + nome + ", seu salário é de R$" + str(salario_float) + " e você recebeu um bônus de R$" + str(bonus_calculado) + ", totalizando R$" + str(salario_final))
+print(f"Olá {nome} , seu salário é de R${salario_float} e você recebeu um bônus de R${bonus_calculado} , totalizando R${salario_final}")
