@@ -60,11 +60,12 @@ else:
 
 # Exercício 5: Detecção de Anomalias em Dados de Transações
 transacoes = [
-    {'valor': 12000, 'hora': 20},
-    {'valor': 5000, 'hora': 16}
+    {'transacao': 1, 'valor': 12000, 'hora': 20},
+    {'transacao': 2, 'valor': 5000, 'hora': 16}
 ]
+
 for transacao in transacoes:
     if transacao['valor'] > 10000 or transacao['hora'] < 9 or transacao['hora'] > 18:
-        print('Transação suspeita')
+        print(f"Transação {transacao['transacao']} suspeita.")
     else:
-        print('Transação normal')
+        print(f"Transação {transacao['transacao']} normal.")
