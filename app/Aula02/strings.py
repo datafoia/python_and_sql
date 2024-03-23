@@ -1,5 +1,5 @@
 '''
-Textos (Strings)
+Strings (`str`)
 
 1. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 2. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.

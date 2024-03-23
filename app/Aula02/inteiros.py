@@ -1,5 +1,3 @@
-#Exercícios
-
 '''
 Inteiros (`int`)
 
